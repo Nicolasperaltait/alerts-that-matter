@@ -59,6 +59,16 @@ flowchart LR
     F -->|tambien se verifica| V
 ```
 
+## En vivo
+
+_Capturas reales del entorno, con nombres, direcciones, usuarios y versiones reemplazados por su funcion._
+
+![Grafana con 13 exporters y 25 sondas en verde](docs/img/grafana-salud.png)
+<sub>Salud: 13 exporters y 25 sondas; cualquier rojo dispara una alerta al telefono.</sub>
+
+![Indicadores del SIEM en Grafana](docs/img/grafana-seguridad.png)
+<sub>SIEM (Wazuh): 8 agentes activos, 0 desconectados, 0 alertas criticas en 24 horas.</sub>
+
 ## Problema, decision, resultado
 
 | Problema | Por que importaba | Que se hizo | Resultado |
