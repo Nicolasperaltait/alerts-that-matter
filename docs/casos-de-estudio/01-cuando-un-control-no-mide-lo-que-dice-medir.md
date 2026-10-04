@@ -13,6 +13,18 @@ verificacion que mentia.**
 Aparecio siete veces. Vale la pena escribirlo porque no es un error de
 implementacion: es un error de razonamiento, y se repite.
 
+## Los siete de un vistazo
+
+| # | Control | Lo que informaba | Lo que pasaba |
+|---|---|---|---|
+| 1 | Endurecimiento de acceso remoto | exito | la contrasena seguia funcionando |
+| 2 | Guardia antes de retirar una cuenta | "esta inerte" | no habia comprobado nada |
+| 3 | Verificacion tras rotar una credencial | fallo, y revirtio | el error era de horas antes |
+| 4 | Aviso de acceso restringido | aplicado | rompio toda la automatizacion |
+| 5 | Rescate temporizado de firewall | red de seguridad | habria causado el mismo dano |
+| 6 | Validacion de permisos por archivo | cada pieza valida | el conjunto era invalido, y quedo puesto |
+| 7 | Conteo de reglas de auditoria | falla | sistema sano, medido a mitad de carga |
+
 ## Los casos
 
 ### 1. El endurecimiento que informo exito sin haber endurecido nada

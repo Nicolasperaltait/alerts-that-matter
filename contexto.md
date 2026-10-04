@@ -23,7 +23,7 @@ privado; este repo es su version transformada.
 | Item | Valor |
 | --- | --- |
 | Formato | Markdown y diagramas Mermaid, sin codigo |
-| Casos de estudio | 1 (controles que no median lo que decian medir) |
+| Casos de estudio | 2 (controles que no median lo que decian medir; 13.017 rechazos que nadie vio) |
 | Perfil al que apunta | Monitoreo, SOC, seguridad, SRE |
 | Estado | Completo, se amplia con casos nuevos |
 

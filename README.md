@@ -19,11 +19,31 @@ infraestructura y evidencia de seguridad, y la disciplina de verificar el
 efecto de un control en vez de la accion que deberia haberlo producido -una
 leccion que aparecio siete veces distintas en una sola semana de trabajo.
 
+## En 30 segundos
+
+| Indicador | Resultado |
+|---|---|
+| Verificaciones que informaban algo falso, en una sola semana | **7** |
+| Rechazos de politica invisibles hasta construir la deteccion | **13.017** en 34 horas |
+| Registro vs metrica ante 22 intentos | **6** lineas contra **23** paquetes contados |
+| Formas validas de una alerta | **3**: algo fallo, algo no se hizo, algo dejo de pasar |
+| Mensajes de "todo OK" en el canal de alertas | **0**, por regla |
+
+```mermaid
+flowchart LR
+    A[Accion del control] -->|lo que se solia verificar| X[Exito aparente]
+    A --> E[Efecto real en el sistema]
+    E -->|lo que se verifica ahora| V[Exito comprobado]
+    E --> F[Lo que tiene que fallar]
+    F -->|tambien se verifica| V
+```
+
 ## Indice
 
 - [Ficha rapida para quien evalua](contexto.md)
 - [Observabilidad, alertas y SIEM](docs/01-observabilidad-alertas-siem.md)
 - [Caso de estudio: cuando un control no mide lo que dice medir](docs/casos-de-estudio/01-cuando-un-control-no-mide-lo-que-dice-medir.md)
+- [Caso de estudio: 13.017 rechazos que nadie vio](docs/casos-de-estudio/02-trece-mil-rechazos-invisibles.md)
 
 ## Parte de una serie
 
