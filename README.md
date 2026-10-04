@@ -72,6 +72,9 @@ _Capturas reales del entorno, con nombres, direcciones, usuarios y versiones ree
 ![Resumen de Wazuh en 24 horas](docs/img/wazuh-resumen.png)
 <sub>Wazuh en 24 horas: cero alertas criticas o altas; el volumen bajo es ruido conocido y clasificado.</sub>
 
+![Alertas al telefono](docs/img/telegram-alertas.png)
+<sub>Alertas al telefono: solo cuando algo falla y cuando se resuelve. Sin "todo OK".</sub>
+
 ## Problema, decision, resultado
 
 | Problema | Por que importaba | Que se hizo | Resultado |
