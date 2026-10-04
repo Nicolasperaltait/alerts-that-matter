@@ -4,7 +4,7 @@ Ficha de lectura rapida: que es, por que existe y que muestra.
 
 ## 1. Que es
 
-Metricas, dashboards, alertas y SIEM de un homelab, y un caso extenso de controles automatizados que informaban algo distinto de la realidad.
+Metricas, dashboards, alertas y SIEM de una infraestructura productiva personal (homelab), y un caso extenso de controles automatizados que informaban algo distinto de la realidad.
 
 ## 2. Por que existe
 

@@ -2,8 +2,7 @@
 
 ## Contexto
 
-Durante una semana de endurecimiento sobre una plataforma de laboratorio
-productivo se aplicaron cambios en accesos, privilegios, auditoria y
+Durante una semana de endurecimiento sobre una infraestructura productiva personal se aplicaron cambios en accesos, privilegios, auditoria y
 filtrado de red. Cada cambio se acompano de un script que verificaba su
 propio resultado.
 

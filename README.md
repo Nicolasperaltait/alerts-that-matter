@@ -3,21 +3,40 @@
 > Alertas que solo suenan por fallos reales, y controles que se verifican por su efecto.
 
 Este repositorio documenta, de forma sanitizada, el stack de observabilidad y
-visibilidad de seguridad de un homelab personal (metricas, dashboards,
-alertas y SIEM), y un caso real extenso sobre un problema recurrente:
+visibilidad de seguridad de una infraestructura productiva personal (homelab): metricas, dashboards,
+alertas y SIEM. Incluye un caso real extenso sobre un problema recurrente:
 controles automatizados que informaban un resultado que no correspondia con
 la realidad.
 
-Es parte de un portfolio tecnico pensado para entrevistas de trabajo. No es
-documentacion operativa de un entorno en produccion: es una version
-transformada -decisiones, patrones y aprendizajes- de un homelab real, sin
-datos que permitan identificarlo o reproducirlo.
+Es parte de un portfolio tecnico. **No es un laboratorio de prueba**: es una
+**infraestructura productiva personal**. Un hipervisor de tipo 1 sobre un
+servidor dedicado, encendido 24/7, del que dependen todos los dias la red de la
+casa, los backups, la seguridad y aplicaciones en uso real. Si se apaga, se nota.
+
+La documentacion operativa es privada. Esto es su version transformada
+-decisiones, patrones y aprendizajes-, sin datos que permitan identificar o
+reproducir el entorno.
 
 Lo que busca demostrar: diseno de alertas que solo avisan de fallos reales
 (sin ruido que ensene a ignorar el canal), separacion entre metricas de
 infraestructura y evidencia de seguridad, y la disciplina de verificar el
 efecto de un control en vez de la accion que deberia haberlo producido -una
 leccion que aparecio siete veces distintas en una sola semana de trabajo.
+
+## Por que es infraestructura productiva
+
+| Servicio que corre 24/7 | Que pasa si se cae |
+|---|---|
+| DNS de toda la red de la casa | ningun equipo resuelve nombres: para quien la usa, "se corto internet" |
+| Backups nocturnos y copia cifrada fuera del sitio | se pierde la proteccion de los datos y nadie lo nota hasta necesitarla |
+| SIEM, metricas y alertas al telefono | los incidentes pasan sin que nadie se entere |
+| Acceso remoto por malla | no hay forma de operar desde fuera de casa |
+| NAS y espejo de la estacion de trabajo | se corta la sincronizacion de los archivos de trabajo |
+| Aplicaciones propias en uso diario | se frena el uso real, incluido el envio de correo |
+| Remoto de codigo propio | no hay donde versionar ni desde donde desplegar |
+
+Por eso cada cambio se trata como en produccion: plan, rollback, evidencia y
+verificacion de que lo que tiene que fallar, falla.
 
 ## En 30 segundos
 
@@ -47,8 +66,8 @@ flowchart LR
 
 ## Parte de una serie
 
-Este repo es una pieza de un proyecto mas grande: un **homelab personal**
-operado como infraestructura real y documentado en cinco repos
+Este repo es una pieza de un proyecto mas grande: una **infraestructura
+productiva personal** (homelab), encendida 24/7 y documentada en cinco repos
 independientes. Cada uno se lee solo; juntos muestran el entorno completo.
 
 - [Zero Trust Remote Access](https://github.com/Nicolasperaltait/zero-trust-remote-access)
