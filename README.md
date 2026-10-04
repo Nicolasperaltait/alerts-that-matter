@@ -69,6 +69,9 @@ _Capturas reales del entorno, con nombres, direcciones, usuarios y versiones ree
 ![Indicadores del SIEM en Grafana](docs/img/grafana-seguridad.png)
 <sub>SIEM (Wazuh): 8 agentes activos, 0 desconectados, 0 alertas criticas en 24 horas.</sub>
 
+![Resumen de Wazuh en 24 horas](docs/img/wazuh-resumen.png)
+<sub>Wazuh en 24 horas: cero alertas criticas o altas; el volumen bajo es ruido conocido y clasificado.</sub>
+
 ## Problema, decision, resultado
 
 | Problema | Por que importaba | Que se hizo | Resultado |
