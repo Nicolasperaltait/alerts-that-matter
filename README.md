@@ -2,6 +2,14 @@
 
 > Alertas que solo suenan por fallos reales, y controles que se verifican por su efecto.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Prometheus-111827?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Wazuh_SIEM-B91C1C?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh SIEM" />
+  <img src="https://img.shields.io/badge/Alertas_al_telefono-1F2937?style=for-the-badge&logo=telegram&logoColor=white" alt="Alertas al telefono" />
+  <img src="https://img.shields.io/badge/Controles_verificados-0F766E?style=for-the-badge" alt="Controles verificados" />
+</p>
+
 Este repositorio documenta, de forma sanitizada, el stack de observabilidad y
 visibilidad de seguridad de una infraestructura productiva personal (homelab): metricas, dashboards,
 alertas y SIEM. Incluye un caso real extenso sobre un problema recurrente:
