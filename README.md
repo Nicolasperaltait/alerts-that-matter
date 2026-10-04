@@ -3,11 +3,11 @@
 > Alertas que solo suenan por fallos reales, y controles que se verifican por su efecto.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Prometheus-111827?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/Wazuh_SIEM-B91C1C?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh SIEM" />
-  <img src="https://img.shields.io/badge/Alertas_al_telefono-1F2937?style=for-the-badge&logo=telegram&logoColor=white" alt="Alertas al telefono" />
-  <img src="https://img.shields.io/badge/Controles_verificados-0F766E?style=for-the-badge" alt="Controles verificados" />
+  <img src="https://img.shields.io/badge/Prometheus-D97706?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-D97706?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Wazuh_SIEM-BE123C?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAxIDMgNXY2YzAgNS42IDMuOCAxMC43IDkgMTIgNS4yLTEuMyA5LTYuNCA5LTEyVjV6Ii8%2BPC9zdmc%2B&logoColor=white" alt="Wazuh SIEM" />
+  <img src="https://img.shields.io/badge/Alertas_al_telefono-7C3AED?style=for-the-badge&logo=telegram&logoColor=white" alt="Alertas al telefono" />
+  <img src="https://img.shields.io/badge/Controles_verificados-059669?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAxYTUgNSAwIDAgMC01IDV2NEg1djEzaDE0VjEwaC0yVjZhNSA1IDAgMCAwLTUtNXptLTMgOVY2YTMgMyAwIDAgMSA2IDB2NHoiLz48L3N2Zz4%3D&logoColor=white" alt="Controles verificados" />
 </p>
 
 Este repositorio documenta, de forma sanitizada, el stack de observabilidad y
