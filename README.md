@@ -19,6 +19,7 @@ leccion que aparecio siete veces distintas en una sola semana de trabajo.
 
 ## Indice
 
+- [Ficha rapida para quien evalua](contexto.md)
 - [Observabilidad, alertas y SIEM](docs/01-observabilidad-alertas-siem.md)
 - [Caso de estudio: cuando un control no mide lo que dice medir](docs/casos-de-estudio/01-cuando-un-control-no-mide-lo-que-dice-medir.md)
 
